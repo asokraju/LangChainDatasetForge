@@ -1,6 +1,7 @@
 # Cost-effective Dataset Creation and Model Fine-tuning
 
 This repository showcases a comprehensive methodology for generating versatile language datasets using LangChain and OpenAI. Further, it provides a guide to fine-tuning the Falcon-7b model to achieve refined performance using the generated dataset.
+See the linkedin [post](https://www.linkedin.com/posts/kc-kosaraju_datascience-langchain-openai-activity-7094995764992479232-oK8q) for more details.
 
 ## Overview
 
