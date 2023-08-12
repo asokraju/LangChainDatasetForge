@@ -1,4 +1,4 @@
-# Cost-effective Dataset Creation and Model Fine-tuning
+# Cost-effective Dataset Creation, Model Fine-tuning and Vector Embeddings
 
 This repository showcases a comprehensive methodology for generating versatile language datasets using LangChain and OpenAI. Further, it provides a guide to fine-tuning the Falcon-7b model to achieve refined performance using the generated dataset.
 See the linkedin [post](https://www.linkedin.com/posts/kc-kosaraju_datascience-langchain-openai-activity-7094995764992479232-oK8q) for more details.
@@ -20,4 +20,7 @@ Narrative:
 "Planning a business venture for a quintet, our leanings are towards fast food and a mix of rail and air travel. We're scouting for eleventh-hour deals and are enthusiastic about immersing ourselves in historical locales."
 
 ## Fine-tuning Falcon-7b
-Post dataset creation, we use transformers, bitsandbytes, and the accelerate libraries to fine-tune the Falcon 7b LLM by employing the QLORA technique on our synthetically constructed dataset.
+Once the dataset is in place, we employ tools like transformers, bitsandbytes, and the accelerate libraries to enhance the Falcon-7b LLM. The fine-tuning is realized using the QLORA technique on our meticulously curated synthetic dataset.
+
+## Vector Embeddings
+With the assistance of LangChain and OpenAI, we generate vector embeddings to architect a Vector Database. We've integrated Facebook's FAISS to pinpoint similar queries and their associated responses, facilitating the transformation from unstructured to structured data.
